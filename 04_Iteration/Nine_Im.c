@@ -21,7 +21,7 @@ int main(){
   }
   /* Using Just for */
   printf("\n<----This is Version Using only for---->\n");
-  for(i=2; i<9 ; i*=2){
+  for(i=2; i<9; i*=2){
     for(j=1; j<=i; j++){
       printf("%d * %d = %d\n", i, j, i*j);
     }
